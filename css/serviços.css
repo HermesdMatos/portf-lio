@@ -1,0 +1,63 @@
+.services {
+    padding-bottom: 10rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que a seção ocupe a altura total da janela de visualização */
+    padding: 2rem;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+    margin-top: 300px;
+
+}
+.heading {
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.services .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+    text-align: center;
+    border-top: .6rem solid var(--main-color);
+    border-bottom: .6rem solid var(--main-color);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover {
+    box-shadow: 0 .1rem 2rem var(--shadow-color);
+    transform: scale(1.02);
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+    transition: .5s ease;
+}
+
+.services-box:hover h3 {
+    color: var(--main-color);
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}

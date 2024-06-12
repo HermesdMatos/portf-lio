@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Responsive Portfolio Website Design</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/serviços.css">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/contatos.css">
+    <link rel="stylesheet" href="css/breakpoints.css">
+
+    <!-- EmailJS script -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="js/email.js"></script>
+
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+
+
+
+
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portifolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Experiencias</a>
+            <a href="#portfolio">portfólio</a>
+            <a href="#contact">Contatos</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, me chamo</h3>
+            <h1>Daniel Hermes de Matos</h1>
+            <p>
+
+
+            </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+
+        <div class="about-content">
+            <h2 class="heading">Sobre<span></span></h2>
+            <h3>
+                Sou estudante de engenharia de software na cidade das quatro estações num dia só,
+                onde
+                você nunca sabe se vai fazer frio, calor ou os dois ao mesmo tempo: São José dos Campos.
+            </h3>
+            <p>
+                Atualmente, estou estudando alguns conceitos com foco no Backend e frontend. Participei do curso de
+                Desenvolvedor de Software na Cubos Academy, em parceria com o iFood, tenho aprofundado minhas
+                habilidades em HTML, CSS,JavaScript, MySQL, PostgresSQL, Git e Node.js.
+
+                Tenho aplicado essas habilidades em projetos pessoais, buscando solidificar meu conhecimento em
+                arquitetura de software, design patterns e desenvolvimento de APIs. Meu objetivo é me tornar um
+                desenvolvedor altamente qualificado, capaz de criar soluções tecnológicas robustas e escaláveis.
+
+                Estou empolgado com as oportunidades que a área de tecnologia oferece e ansioso para contribuir com
+                soluções inovadoras.
+            </p>
+            <p>
+                Além disso, gosto de ter meu tempo livre para tocar um violão, assistir algumas séries e, de vez em
+                quando, sair um pouco. A música me ajuda a relaxar e a me inspirar, enquanto as séries são uma ótima
+                maneira de me desconectar e me divertir. Gosto de explorar novos lugares e culturas, o que me
+                proporciona novas perspectivas e ideias para meus projetos.
+
+                Acredito que manter um equilíbrio entre o trabalho e as atividades de lazer é essencial para a
+                criatividade e a produtividade. Essas atividades me ajudam a recarregar as energias e voltar ao trabalho
+                com uma mente renovada e cheia de ideias novas.
+            </p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+    </section>
+
+
+    <!-- Experiencia section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Experiência<span> Profissional</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-like'></i>
+                <h3>Atendente de midias - Atento Brasil</h3>
+                <p> outubro/2018 - novembro/2022
+                    <br>● Suporte ao cliente: resolução de problemas, abertura de notas de atendimento, utilização
+                    de planilhas (Excel) e sistema SAP.
+                </p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-user'></i>
+                <h3>Supervisor - Atento Brasil</h3>
+                <p> ● Atendimento ao cliente: resolução de problemas, aplicação de feedbacks e trabalho sob
+                    pressão; Relatórios de indicadores-chave de desempenho (KPI), gestão de equipes, métricas de
+                    desempenho.
+                </p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-phone-call'></i>
+                <h3>Atendente - Santa Casa</h3>
+                <p>Emprego atual
+                    <br>● Suporte ao cliente: resolução de problemas, abertura de notas de protocolos e envio de
+                    tramites
+                </p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Últimos <span>Projetos</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="https://blog.tecnospeed.com.br/wp-content/uploads/2023/01/API-de-bancos-brasilieros.png"
+                    alt="">
+
+                <div class="portfolio-layer">
+                    <h4>API de um Banco Digital </h4>
+                    <p>O banco digital precisa de um API para ser acessado por um cliente.
+                    O cliente precisa de um API para criar uma conta, atualizar uma conta, deletar uma conta, depositar, sacar e transferir.
+                    </p>
+                    <a href="https://github.com/HermesdMatos/api-de-um-banco"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://tomticket-galeria.s3.amazonaws.com/24914/64379-1585863327894.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>API Sistema de Ponto de Venda </h4>
+                    <p>A API do sistema de ponto de venda oferece funcionalidades essenciais para gerenciamento de
+                        vendas, estoque e transações financeiras. Possui endpoints para cadastrar produtos, clientes e
+                        processar vendas. </p>
+                    <a href="https://github.com/HermesdMatos/api-pdv"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://srconsultoriafinanceira.com.br/wp-content/uploads/2019/01/5site-1024x585.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>API Sistema de Controle Financeiro </h4>
+                    <p>A API do sistema de controle financeiro oferece uma interface robusta para gerenciar transações, contas e orçamentos. Com suporte a operações como adição, consulta e exclusão de registros financeiros.
+                    </p>
+                    <a href="https://github.com/HermesdMatos/api-controle-financeiro"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contato<span>!</span></h2>
+
+        <form action="#" id="contact-form">
+            <div class="input-box">
+                <input type="text" name="full_name" placeholder="Nome Completo" required>
+                <input type="email" name="email_address" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone_number" placeholder="Telefone" required>
+                <input type="text" name="email_subject" placeholder="Assunto" required>
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Deixe sua mensagem" required></textarea>
+            <input type="submit" value="Send Message" placeholder=" enviar" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright © 2024 | Todos os direitos reservados.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/email.js"></script>
+
+</body>
+
+</html>
